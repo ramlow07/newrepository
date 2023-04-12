@@ -60,7 +60,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 160px;
+    width: 150px;
     text-decoration: none;
     height: 100%;
     transition: all 0.3 ease;
@@ -81,7 +81,7 @@
     align-items: center;
     text-decoration: none;
     padding: 10px 20px;
-    height: 50%;
+    height: 100%;
     width: 100%;
     border: none;
     outline: none;
@@ -95,7 +95,7 @@
 
 .navbar__links:hover {
     color:#3498db;
-    transition: all 0.5s ease;
+    transition: all 0.3s ease;
   }
 
   @media screen and (max-width: 960px) {
@@ -115,7 +115,7 @@
         margin: 0;
         width: 100%;
         position: absolute;
-        "top: -1000px;"
+        top: -1000px;
         opacity: 1;
         transition: all 0.5 ease;
         z-index: -1;
@@ -193,6 +193,63 @@
     #mobile-menu.is-active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(45deg);
     }
+ }
+
+ /* Hero Section */
+
+ .hero  {
+    background: #000000;
+    background: linear-gradient(to right, #161616, #000000);
+    padding: 200px 0;
+ }
+
+ .hero__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 90%;
+    text-align: center;
+    padding: 30px;
+
+ }
+
+ .hero__heading {
+    font-size: 70px;
+    margin-bottom: 24px;
+    color: #fff;
+ }
+
+ .hero__heading span {
+    background: #2c3e50;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3498db, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3498db, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text ;
+    -webkit-text-fill-color: transparent;
+    -mo-text-fill-color: transparent;
+ }
+
+ .hero__description {
+    font-size: 70px;
+    margin-bottom: 24px;
+    color: #fff;
+    
+ }
+
+ .hero__description span {
+    font-size: 60px;
+    background: #2c3e50;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3498db, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3498db, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    -moz-background-clip: text ;
+    -webkit-text-fill-color: transparent;
+    -mo-text-fill-color: transparent;
+
  }
 
   
