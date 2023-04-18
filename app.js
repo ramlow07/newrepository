@@ -59,3 +59,9 @@ const hideMobileMenu = () => {
 
 menuLinks.addEventListener('click', hideMobileMenu);
 navLogo.addEventListener('click', hideMobileMenu);
+
+const contactLink = document.getElementById("main__btn");
+
+contactLink.addEventListener('click', function() {
+   window.location.href = wa.me/554899161710;
+});
