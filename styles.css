@@ -33,6 +33,7 @@
     background-image: linear-gradient(to top, rgb(0, 132, 255) 1%, white 90%);
     -webkit-background-clip: text;
     -moz-background-clip: text;
+    background-clip: inset 0 0 6px rgba (0, 0, 0, 0.1);
     -webkit-text-fill-color: transparent;
     -moz-text-fill-collor: transparent;
     display: flex;
@@ -229,6 +230,7 @@
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text ;
+    background-clip: inset 0 0 6px rgba (0, 0, 0, 0.1);
     -webkit-text-fill-color: transparent;
     -mo-text-fill-color: transparent;
  }
@@ -247,6 +249,7 @@
     background: linear-gradient(to right, #3498db, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     -webkit-background-clip: text;
     -moz-background-clip: text ;
+    background-clip: inset 0 0 6px rgba (0, 0, 0, 0.1);
     -webkit-text-fill-color: transparent;
     -mo-text-fill-color: transparent;
 
@@ -258,6 +261,7 @@
     background: linear-gradient(to bottom, #00BFFF,#2c3e50);
     -webkit-background-clip: text;
     -moz-background-clip: text ;
+    background-clip: inset 0 0 6px rgba (0, 0, 0, 0.1);
     -webkit-text-fill-color: transparent;
     -mo-text-fill-color: transparent;
  }
@@ -288,6 +292,7 @@
     background: linear-gradient(to right, #3498db, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     -webkit-background-clip: text;
     -moz-background-clip: text ;
+    background-clip: inset 0 0 6px rgba (0, 0, 0, 0.1);
     -webkit-text-fill-color: transparent;
     -mo-text-fill-color: transparent;
  }
@@ -299,6 +304,7 @@
     background: linear-gradient(to bottom, #00BFFF,#2c3e50);
     -webkit-background-clip: text;
     -moz-background-clip: text ;
+    background-clip: inset 0 0 6px rgba (0, 0, 0, 0.1);
     -webkit-text-fill-color: transparent;
     -mo-text-fill-color: transparent;
 }
@@ -309,6 +315,7 @@
     background: linear-gradient(to bottom, #00BFFF,#2c3e50);
     -webkit-background-clip: text;
     -moz-background-clip: text ;
+    background-clip: inset 0 0 6px rgba (0, 0, 0, 0.1);
     -webkit-text-fill-color: transparent;
     -mo-text-fill-color: transparent;
 }
@@ -318,6 +325,7 @@
     background: linear-gradient(to bottom, #00BFFF,#2c3e50);
     -webkit-background-clip: text;
     -moz-background-clip: text ;
+    background-clip: inset 0 0 6px rgba (0, 0, 0, 0.1);
     -webkit-text-fill-color: transparent;
     -mo-text-fill-color: transparent;
 }
@@ -327,6 +335,7 @@
     background: linear-gradient(to bottom, #00BFFF,#2c3e50);
     -webkit-background-clip: text;
     -moz-background-clip: text ;
+    background-clip: inset 0 0 6px rgba (0, 0, 0, 0.1);
     -webkit-text-fill-color: transparent;
     -mo-text-fill-color: transparent;
     
@@ -341,6 +350,8 @@
     -mo-text-fill-color: transparent;
     -moz-background-clip: text;
     -webkit-background-clip: text;
+    background-clip: inset 0 0 6px rgba (0, 0, 0, 0.1);
+
 
 }
 
@@ -362,6 +373,7 @@
     background: linear-gradient(to bottom, #00BFFF,#2c3e50);
     -webkit-background-clip: text;
     -moz-background-clip: text ;
+    background-clip: inset 0 0 6px rgba (0, 0, 0, 0.1);
     -webkit-text-fill-color: transparent;
     -mo-text-fill-color: transparent;
 }
@@ -379,5 +391,67 @@
 
 }
 
+.description { 
+    font-size: 40px;
+    background: #00BFFF;
+    background: linear-gradient(to bottom, #00BFFF,#2c3e50);
+    -webkit-background-clip: text;
+    -moz-background-clip: text ;
+    background-clip: inset 0 0 6px rgba (0, 0, 0, 0.1);
+    -webkit-text-fill-color: transparent;
+    -mo-text-fill-color: transparent;
+}
+
+.description2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 700px;
+    margin: 0 auto;
+    height: 90%;
+    text-align: center;
+    padding: 30px;
+
+    font-size: 30px;
+    background: #00BFFF;
+    background: linear-gradient(to bottom, #00BFFF,#2c3e50);
+    -webkit-background-clip: text;
+    -moz-background-clip: text ;
+    background-clip: inset 0 0 6px rgba (0, 0, 0, 0.1);
+    -webkit-text-fill-color: transparent;
+    -mo-text-fill-color: transparent;
+}
+
+.location_container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    height: 100%;
+    text-align: justify;
+    padding: 30px;
+}
+
+.location_text {
+    font-size: 25px;
+    background: #00BFFF;
+    background: linear-gradient(to bottom, #00BFFF,#2c3e50);
+    -webkit-background-clip: text;
+    -moz-background-clip: text ;
+    background-clip: inset 0 0 6px rgba (0, 0, 0, 0.1);
+    -webkit-text-fill-color: transparent;
+    -mo-text-fill-color: transparent;
+}
+
+.map_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+
+}
 
   
